@@ -16,6 +16,7 @@ def condEntropy(x,y):
 
     """
 
+    import numpy as np
     Hxy=0
     uniquex = np.unique(x)
     uniquey = np.unique(y)

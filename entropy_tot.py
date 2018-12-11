@@ -10,6 +10,7 @@ def entropy(x):
 
     """
     # figure out unique values of x - can be more than just 0s, 1s
+    import numpy as np
     uniquex = np.unique(x)
 
     Hx = 0
